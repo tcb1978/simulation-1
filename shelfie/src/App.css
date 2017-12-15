@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    height: 80px;
+    float: left;
+    bottom: 15px;
+    position: relative;
+}
+
+.App-header {
+  background-color: #AB2A19;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.shelfie-header,
+img.App-logo,
+h1.App-title {
+  display: inline;
+}
+
+.shelfie-header {
+  margin: auto;
+}
