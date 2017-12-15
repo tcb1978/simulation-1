@@ -1,12 +1,20 @@
 //simulation - 1 37E-1 import
 import React, { Component } from 'react';
-// import logo from './logo.png';
+const express = require('express');
+//simulation - 1 76F Body Parser
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const massive = require('massive');
+import ReactDOM from 'react-dom';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
 import axios from 'axios';
 import routes from './routes';
 import { Link } from "react-router-dom";
 import Header from "./headerComponent";
 import Shelves from "./Home";
+//simulation - 1 74C Invoke Express
+const app = express();
 
 class App extends Component {
 
